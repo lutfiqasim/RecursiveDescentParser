@@ -1,0 +1,31 @@
+module testcase;
+    const
+        max = 200;
+    var
+        num: integer;
+        x: real;
+
+    procedure compute;
+        var
+            n: integer;
+        begin
+            n := 30;
+            writeint(n);
+        end compute;
+
+    begin
+        readint(num);
+        readreal(x);
+
+        if num <= max then
+            loop
+                num := num * 2;
+            until num>=max;
+        else
+            num := num / 2;
+        end;
+        writeint(num);
+        call compute;
+        writereal(x);
+        exit;
+    end testcase.

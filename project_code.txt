@@ -1,0 +1,27 @@
+module myprogram;
+  const
+    max=100;
+  var
+    num:integer;
+	x:real;
+  procedure compute;
+    var
+	  n:integer;
+	begin
+	  n:=10;
+	  writeint(n);
+	end compute;
+
+  begin
+    readint(num);
+	readreal(x);
+	if num|=max then
+	  num:=num+5
+	else
+	  num :=num-5
+	end;
+	writeint(num);
+	call compute;
+	writereal(x);
+	exit;
+  end myprogram.
