@@ -1,5 +1,6 @@
 # MODULA-2 Subset Grammar Rules
-
+This project implements a recursive descent parser for a subset of the MODULA-2 programming language. 
+-The grammar rules define the structure of MODULA-2 programs using production rules. The parser is designed to recognize and parse valid MODULA-2 code based on the specified grammar.
 ## Module Declaration
 
 - module-decl → module-heading declarations procedure-decl block name .
